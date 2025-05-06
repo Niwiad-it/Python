@@ -1,0 +1,6 @@
+import tkinter as tk
+from tkinter import ttk, filedialog, messagebox
+import sv_ttk  # For Windows 11 style
+from key_generator import generate_new_keypair, save_keys_to_file, load_keys_from_file
+from my_functions import encrypt_message, decrypt_message, save_message_to_file, load_message_from_file
+import os
