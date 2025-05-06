@@ -379,6 +379,7 @@ class CryptoApp:
                 return True
             except Exception as e:
                 messagebox.showerror("Error", f"Failed to save message: {str(e)}")
+                print(e)  # Debugging output
         return False
 
 def main():
